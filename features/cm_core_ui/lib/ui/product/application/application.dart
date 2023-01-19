@@ -6,7 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../data_access/data_access.dart';
 import 'product_data_state.dart';
 import 'product_logic.dart';
-import 'product_usecase.dart';
+import 'product_useCase.dart';
 
 final productListProvider =
     StateNotifierProvider<ProductListUseCase, ProductListState>(
@@ -14,5 +14,5 @@ final productListProvider =
 
 // final productProvider = StateNotifierProvider<ProductUseCase, ProductDataState>(
 //     (ref) => ProductLogic());
-// final productProvider = StateNotifierProvider<ProductUC, ProductDataState>(
-//     ((ref) => ProductLogic(ref.watch(defaultProductRepoProvider))));
+final productProvider = StateNotifierProvider<ProductUC, ProductDataState>(
+    ((ref) => ProductLogic(ref.watch(defaultProductRepoProvider))));

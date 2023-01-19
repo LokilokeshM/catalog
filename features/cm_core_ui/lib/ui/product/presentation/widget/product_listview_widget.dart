@@ -200,6 +200,6 @@ class ProdcutListViewWidget extends ConsumerWidget {
   }
 
   void onTap(p.Product product, WidgetRef ref) {
-    // ref.read(productProvider.notifier).viewProduct(product);
+    ref.read(productProvider.notifier).viewProduct(product);
   }
 }

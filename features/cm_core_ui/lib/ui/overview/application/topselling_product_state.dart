@@ -1,8 +1,6 @@
 import 'package:cm_core_ui/model/topselling_info.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import '../presentation/widget/top_selling_info_card.dart';
-
 part 'topselling_product_state.freezed.dart';
 
 @freezed
