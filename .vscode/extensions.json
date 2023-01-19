@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+      "albert.tabout",
+      "alexisvt.flutter-snippets",
+      "blaugold.melos-code",
+      "dart-code.dart-code",
+      "dart-code.flutter",
+      "eamodio.gitlens",
+      "equinusocio.vsc-community-material-theme",
+      "gruntfuggly.todo-tree",
+      "humao.rest-client",
+      "jeroen-meijer.pubspec-assist",
+      "nash.awesome-flutter-snippets",
+      "pflannery.vscode-versionlens",
+      "pkief.material-icon-theme",
+      "redvanworkshop.explorer-exclude-vscode-extension",
+      "streetsidesoftware.code-spell-checker",
+      "vivaxy.vscode-conventional-commits",
+      "wangxinhai-ref-chunsen.flutter-code-select"
+    ]
+  }
+  

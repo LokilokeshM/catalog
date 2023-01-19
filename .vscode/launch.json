@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "catalogue_management",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "catalogue_management (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "catalogue_management (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cm_core_ui",
+            "cwd": "features/cm_core_ui",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cm_core_ui (profile mode)",
+            "cwd": "features/cm_core_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cm_core_ui (release mode)",
+            "cwd": "features/cm_core_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cm_common",
+            "cwd": "packages/cm_common",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cm_common (profile mode)",
+            "cwd": "packages/cm_common",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cm_common (release mode)",
+            "cwd": "packages/cm_common",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cm_network",
+            "cwd": "packages/cm_network",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cm_network (profile mode)",
+            "cwd": "packages/cm_network",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cm_network (release mode)",
+            "cwd": "packages/cm_network",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cm_network_implementation",
+            "cwd": "packages/cm_network_implementation",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cm_network_implementation (profile mode)",
+            "cwd": "packages/cm_network_implementation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cm_network_implementation (release mode)",
+            "cwd": "packages/cm_network_implementation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
